@@ -24,6 +24,11 @@ marquee
     background: blue;
 }
 
+.__li
+{
+    font-size: 20px;
+}
+
 /* -- menu.html -- */
 .h1_menu
 {
@@ -63,22 +68,6 @@ marquee
     color: white;
     font-size: 7mm;
 }
-
-/* -- 4_Disk_desc.html -- */
-
-/* Img and img desc */
-/* .img1
-{
-    margin: auto;
-    width: 800px;
-    height: 300px;
-}
-
-.img_desc
-{
-    margin-left: 650px;
-    margin-top: -150px;
-} */
 
 .p_disk_desc
 {
