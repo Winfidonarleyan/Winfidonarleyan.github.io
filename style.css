@@ -5,8 +5,8 @@
 
 .list_month
 {
-    /* margin-top: 50%; */
-    margin-left: 19%;
+    margin: 0 15% 0 15%;
+    width: 70%;
 }
 
 .link
