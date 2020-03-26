@@ -19,12 +19,18 @@ body
     margin-top: 20px;
 }
 
-img
-{
-    width: 100%;
-}
-
 .btn-width-100
 {
     width: 100px;
+}
+
+div>img
+{
+    max-width: 300px;
+    margin: auto;
+}
+
+div>div>p
+{
+    text-indent: 10px;
 }
