@@ -1,36 +1,40 @@
-body
+div
 {
-    background: #17a2b8;
+    text-align: center;
 }
 
-.list_month
+.table_month>table>td
 {
-    margin: 0 15% 0 15%;
-    width: 70%;
+    border-collapse: collapse;
 }
 
-.link
+.table_days
 {
-    color: yellow;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background: rgba(19, 201, 2, 0.5);
 }
 
-.indent
+.table_days>table
 {
-    margin-top: 20px;
+    width: 300px;
+    height: 200px;
 }
 
-.btn-width-100
+.name_month
 {
-    width: 100px;
+    padding-bottom: 10px;
 }
 
-div>img
+a
 {
-    max-width: 300px;
-    margin: auto;
+    text-decoration: none;
 }
 
-div>div>p
+.weekends
 {
-    text-indent: 10px;
+    background: red;
 }

@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Календарь</title>
 
-    <frameset rows="6%, 45%, *" frameborder="0" noresize>
-        <frame src="menu.html"  name="frame_top">
-        <frame src="Jan.html"   name="frame_middle">
-        <frame src="Desc.html"  name="frame_bottom">
+    <frameset rows="6%,*" frameborder="1" noresize>
+        <frame src="Month.html"  name="frame_top">
+            <frameset cols="30%,*"> 
+                <frame src="1_January.html"   name="frame_days">
+                <frame src="Desc.html"  name="frame_description">
+            </frameset>
     </frameset>
-
 </head>
 </html>
